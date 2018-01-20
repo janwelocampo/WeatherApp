@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Weather Application</string>
+
+    <string name="no_internet_connection">No Internet Connection</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="copy_local_database">Copy Local Database</string>
+    <!-- Main Activity -->
+    <string name="label_city_name">City</string>
+    <string name="label_city_weather">Weather</string>
+    <string name="label_city_temp">Temperature</string>
+
+    <string name="message_local_database_error_no_permission">Cannot write on SD Card. Permission not granted</string>
+    <string name="message_local_database">Local Database has been copied to your SD card.</string>
+    <!-- Detail Activity -->
+    <string name="label_wind">Wind</string>
+    <string name="label_humidity">Humidity</string>
+    <string name="label_max_temp">Max Temp</string>
+    <string name="label_min_temp">Min Temp</string>
+    <string name="label_sunrise">Sunrise</string>
+    <string name="label_sunset">Sunset</string>
+</resources>

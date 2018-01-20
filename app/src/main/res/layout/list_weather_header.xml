@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    android:padding="@dimen/default_margin"
+    android:background="@color/colorPrimary"
+    >
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_location"
+        android:text="@string/label_city_name"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_size_large"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_weather"
+        android:text="@string/label_city_temp"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_size_large"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_temp"
+        android:text="@string/label_city_weather"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_size_large"/>
+</LinearLayout>
