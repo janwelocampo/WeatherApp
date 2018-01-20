@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Application météo</string>
+
+    <string name="no_internet_connection">Pas de connexion Internet</string>
+
+    <string name="refresh">Rafraîchir</string>
+    <string name="copy_local_database">Copier une base de données</string>
+    <!-- Main Activity -->
+    <string name="label_city_name">Ville</string>
+    <string name="label_city_weather">Météo</string>
+    <string name="label_city_temp">Température</string>
+
+    <string name="message_local_database_error_no_permission">Impossible d\'écrire sur la carte SD. Permission non accordée</string>
+    <string name="message_local_database">La base de données locale a été copiée sur votre carte SD.</string>
+    <!-- Detail Activity -->
+    <string name="label_wind">Vent</string>
+    <string name="label_humidity">Humidité</string>
+    <string name="label_max_temp">Max Temp</string>
+    <string name="label_min_temp">Min Temp</string>
+    <string name="label_sunrise">Lever du soleil</string>
+    <string name="label_sunset">Le coucher du soleil</string>
+</resources>
